@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ouça Gaeel 🎧</title>
+
+    <link rel="stylesheet" href="./assets/fonts/font.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+
+</head>
+<body class="min-h-screen bg-black md:bg-gray-200 flex items-center justify-center">
+
+    <div class="w-full max-w-md bg-black text-white p-4 min-h-screen md:min-h-[900px] rounded-2xl flex flex-col items-center relative">
+
+        <div class="relative w-full">
+            <img src="./assets/img/perfil.png" class="w-full rounded-lg">
+
+            <h1 id="title" class="absolute bottom-4 left-4 text-5xl text-shadow-lg/30 font-bold text-white"> GAAEL </h1>
+        </div>
+
+        <p id="subtitle" class="text-gray-400 text-xl mt-4">Ouça-me</p>
+
+        <div id="music-list" class="w-full"></div>
+
+        <footer class="flex text-white w-full justify-center gap-6 mt-4 text-md">
+            <a href="#" class="hover:text-green-500 transition">
+                <i class="bi bi-spotify"></i>
+            </a>
+
+            <a href="#" class="hover:text-red-500 transition">
+                <i class="bi bi-youtube"></i>
+            </a>
+
+            <a href="#" class="hover:text-blue-500 transition">
+                <i class="bi bi-linkedin"></i>
+            </a>
+
+            <a href="#" class="hover:text-gray-400 transition">
+                <i class="bi bi-instagram"></i>
+            </a>
+        </footer>
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

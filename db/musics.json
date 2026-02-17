@@ -1,0 +1,38 @@
+{
+  "music1": {
+    "id": 1,
+    "nome": "Foi tão bom",
+    "descricao": "Musica • Gaael, Nathan, MC Duh, MC WR, Ketlyn",
+    "link": "https://youtu.be/sD_G4TgUVUE?si=g3204I6bcgfw-llg"
+  },
+  "music2": {
+    "id": 2,
+    "nome": "Pra gente se amar",
+    "descricao": "Musica • Gaael, Nathan, MC Duh, Feri, Ketlyn",
+    "link": "https://youtu.be/-99iUHbFZFw?si=7wdBGDaP5XzeG9GH"
+  },
+  "music3": {
+    "id": 3,
+    "nome": "Tudo mudou",
+    "descricao": "Musica • Gaael, Nathan, MC Duh, Feri, Ketlyn",
+    "link": "https://youtu.be/5lU4Ph4pSaY?si=8_JmeNKpKYU5-wRm"
+  },
+  "music4": {
+    "id": 4,
+    "nome": "Carência",
+    "descricao": "Musica • Gaael",
+    "link": "https://youtu.be/JjBWX8tIeg0?si=is8REZ40Xl2oywQc"
+  },
+  "music5": {
+    "id": 5,
+    "nome": "Só você",
+    "descricao": "Musica • Gaael, Nathan",
+    "link": "https://youtu.be/9u8djXorZQ0?si=vAkQHI9qLLa8CMbU"
+  },
+  "music6": {
+    "id": 6,
+    "nome": "Vem Cá",
+    "descricao": "Musica • Gaael, MC Duh",
+    "link": "https://youtu.be/Fh8JaAmyNqo?si=_iyy-Uxc2n1Bi3aQ"
+  }
+}
