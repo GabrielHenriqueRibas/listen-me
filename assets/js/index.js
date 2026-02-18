@@ -10,7 +10,7 @@ fetch('./db/musics.json')
                 <img src="./assets/img/musics/${formatImageName(music.nome)}.png" class="h-14 w-14 rounded-md object-cover">
 
                 <a href="${music.link}" class="pl-4 flex-1">
-                    <h1 class="font-bold text-sm">${music.nome}</h1>
+                    <h1 class="font-bold text-md">${music.nome}</h1>
                     <p class="text-xs text-gray-400">${music.descricao}</p>
                 </a>
             </div>`;
